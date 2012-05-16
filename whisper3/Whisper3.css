@@ -23,12 +23,11 @@ body img {
     max-width: 95%;
 }
 
-body.normal a:link, a:visited, a:hover, a:active {
+body a:link, a:visited, a:hover, a:active {
     color: #184586;
 }
 
 body.normal .text span {
-    display: block;
 }
 
 body.normal .line {
@@ -50,6 +49,7 @@ body.normal .event + .event {
 }
 
 body.normal .text span.message {
+    display: block;
     border-bottom: #efefef 1px solid;
 }
 
@@ -186,9 +186,6 @@ body.normal hr {
     background-color: #d33b54;
     height: 2px;
     text-align: center;
-}
-
-a {
 }
 
 /* lines */
@@ -511,4 +508,12 @@ html[channelname="#open_atrium"].normal {
 
 html[channelname="#rvm"].normal {
     background: white url('badges/rvm.png') no-repeat fixed bottom right;
+}
+
+html[channelname="#mootools"].normal {
+    background: white url('badges/mootools.png') no-repeat fixed bottom right;
+}
+
+html[channelname="#oakley"].normal {
+    background: white url('badges/oakley.png') no-repeat fixed bottom right;
 }
